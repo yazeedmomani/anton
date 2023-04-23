@@ -1,3 +1,10 @@
+:root {
+  --color-primary: #bf834e;
+  --color-secondary: #252526;
+  --color-error: #b00020;
+  --color-error: #4caf50;
+}
+
 *,
 *::before,
 *::after {
@@ -47,4 +54,10 @@ menu,
 nav,
 section {
   display: block;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "lora";
+  font-weight: 400;
 }
