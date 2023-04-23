@@ -47,9 +47,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allura&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="resources/styles/css/index.css" />
   </head>
   <body>
+    <main class="dashboard">
+      <div class="dashboard__content-container">
+        <div class="dashboard__header-container">
+          <span class="dashboard__welcome">Welcome</span>
+          <i class="bx bx-plus"></i>
+        </div>
+        <table class="dashboard__table">
+          <tr class="dashboard__table-row">
+            <th class="dashboard__table-header">Item</th>
+            <th
+              class="dashboard__table-header"
+              colspan="3">
+              Price
+            </th>
+          </tr>
+          <tr class="dashboard__table-row">
+            <td class="dashboard__table-data">Eggs on a biscuit & avo</td>
+            <td class="dashboard__table-data">JOD 11.99</td>
+            <td class="dashboard__table-data">
+              <i class="bx bxs-pencil dashboard__edit-icon"></i>
+            </td>
+            <td class="dashboard__table-data">
+              <i class="bx bxs-trash dashboard__delete-icon"></i>
+            </td>
+          </tr>
+          <tr class="dashboard__table-row">
+            <td class="dashboard__table-data">Protein bre kie</td>
+            <td class="dashboard__table-data">JOD 13.99</td>
+            <td class="dashboard__table-data">
+              <i class="bx bxs-pencil dashboard__edit-icon"></i>
+            </td>
+            <td class="dashboard__table-data">
+              <i class="bx bxs-trash dashboard__delete-icon"></i>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
     <script src="resources/scripts/index.js"></script>
   </body>
 </html>
