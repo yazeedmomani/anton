@@ -73,7 +73,7 @@ body {
 .header__image {
   width: 100%;
   height: 100%;
-  background-image: url(/resources/images/header.png);
+  background-image: url(../../images/header.png);
   background-size: cover;
   background-position: center;
 }
