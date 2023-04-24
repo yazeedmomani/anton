@@ -335,6 +335,13 @@ body {
 .admin-menu__input:last-of-type {
   margin-bottom: 2.4rem;
 }
+.admin-menu__input::-webkit-outer-spin-button, .admin-menu__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.admin-menu__input[type=number] {
+  -moz-appearance: textfield;
+}
 .admin-menu__btn {
   font-family: "roboto";
   color: var(--color-black);

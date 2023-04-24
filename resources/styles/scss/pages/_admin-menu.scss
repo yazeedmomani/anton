@@ -41,6 +41,16 @@
     &:last-of-type {
       margin-bottom: 2.4rem;
     }
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    &[type="number"] {
+      -moz-appearance: textfield;
+    }
   }
 
   &__btn {
