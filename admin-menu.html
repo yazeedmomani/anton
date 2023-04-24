@@ -50,22 +50,82 @@
     <link rel="stylesheet" href="resources/styles/css/index.css" />
   </head>
   <body>
-    <main class="main">
-      <div class="main__login-card">
-        <h1 class="main__logo">Anton</h1>
-        <input
-          type="text"
-          class="main__input"
-          placeholder="ID" />
-        <input
-          type="text"
-          class="main__input"
-          placeholder="Password" />
-        <a
-          href="./admin-menu.html"
-          class="main__button"
-          >Sign in</a
-        >
+    <main class="admin-menu">
+      <div class="admin-menu__container">
+        <div class="admin-menu__card">
+          <h2 class="admin-menu__card-header">Create</h2>
+          <form
+            class="admin-menu__form"
+            action="#">
+            <input
+              class="admin-menu__input"
+              type="text"
+              placeholder="Name" />
+            <input
+              class="admin-menu__input"
+              type="text"
+              placeholder="Description" />
+            <input
+              class="admin-menu__input"
+              type="number"
+              placeholder="Price" />
+            <button
+              class="admin-menu__btn"
+              type="submit">
+              Submit
+            </button>
+          </form>
+        </div>
+        <div class="admin-menu__card">
+          <h2 class="admin-menu__card-header">Read</h2>
+          <form
+            class="admin-menu__form"
+            action="#">
+            <input
+              class="admin-menu__input"
+              type="text"
+              placeholder="All data" />
+            <button
+              class="admin-menu__btn"
+              type="submit">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="admin-menu__container">
+        <div class="admin-menu__card">
+          <h2 class="admin-menu__card-header">Update</h2>
+          <form
+            class="admin-menu__form"
+            action="#">
+            <input
+              class="admin-menu__input"
+              type="text"
+              placeholder="Choose option" />
+            <button
+              class="admin-menu__btn"
+              type="submit">
+              Submit
+            </button>
+          </form>
+        </div>
+        <div class="admin-menu__card">
+          <h2 class="admin-menu__card-header">Delete</h2>
+          <form
+            class="admin-menu__form"
+            action="#">
+            <input
+              class="admin-menu__input"
+              type="text"
+              placeholder="Meal number" />
+            <button
+              class="admin-menu__btn"
+              type="submit">
+              Submit
+            </button>
+          </form>
+        </div>
       </div>
     </main>
     <script src="resources/scripts/index.js"></script>
