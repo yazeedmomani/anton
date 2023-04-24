@@ -30,7 +30,7 @@
     align-items: center;
   }
 
-  &__nav-links {
+  &__nav-a {
     color: var(--color-white);
     font-family: "roboto";
     font-size: 1.8rem;
@@ -39,7 +39,6 @@
 
     &:hover {
       color: var(--color-primary) !important;
-      cursor: pointer;
     }
   }
 
